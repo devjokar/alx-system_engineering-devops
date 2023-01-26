@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Creating a script that uses an until loop
+
+count=0
+until (( $count == 10 ))
+do
+  echo "Best School"
+  (( count++ ))
+done
