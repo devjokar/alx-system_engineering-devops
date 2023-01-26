@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Creating a script that uses a while loop
+
+count=0
+while (( $count < 10 ))
+do
+  echo "Best School"
+  (( count++ ))
+done
