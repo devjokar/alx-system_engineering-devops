@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#Creating a script that uses case statements
+# Creating a script that uses case statements
 
 count=1
-while (( $count <= 20 ))
+while (( count <= 20 ))
 do
   echo "$count"
   case $count in

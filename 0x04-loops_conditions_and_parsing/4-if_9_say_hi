@@ -2,9 +2,9 @@
 # Creating a script that uses an if statement
 
 count=0
-while (( $count < 10 ))
+while (( count < 10 ))
 do
-  if (( $count == 9 ))
+  if (( count == 9 ))
   then
     echo "Hi"
   fi
