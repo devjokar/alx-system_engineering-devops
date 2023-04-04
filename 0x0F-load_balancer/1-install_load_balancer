@@ -10,4 +10,4 @@ apt-get -y install haproxy
 # configure the load balancer
 sed -ie '$aENABLED=1\n' /etc/default/haproxy
 sed -ie '$a\listen http-in\n\tbind :80\n\tbalance roundrobin\n\tserver 108090-web-01 100.26.50.2:80 check\n\tserver 108090-web-02 100.25.117.166:80 check\n' /etc/haproxy/haproxy.cfg
-sudo service haproxy restart
+service haproxy restart
