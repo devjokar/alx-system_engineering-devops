@@ -2,4 +2,4 @@
 # Make task 0 short and sweet
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx start
-kill -9 "$(cat '/run/nginx')"
+kill -9 "$(cat '/run/nginx.pid')"
